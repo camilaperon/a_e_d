@@ -4,25 +4,20 @@ public class Bim2R2 {
     public static int mdcRec(int x, int y){
         // MDC recursivo
         // http://darlonv.github.io/conteudo/AED/recursividade-ex
-        
-        //#######################################
-        //Implemente aqui sua solução
 
-        
-        return 0; //modifique para o retorno correto
-        //#######################################
+        if(x==y){
+            return x;
+        }
+        return mdcRec(x-y, y);//tirar do loop
     }
 
     public static int potenciaRec(int x, int y){
         // Potencia recursiva
         // http://darlonv.github.io/conteudo/AED/recursividade-ex
-
-        //#######################################
-        //Implemente aqui sua solução
-
-
-        return 0; //modifique para o retorno correto
-        //#######################################
+        if(x==0){
+            return 1;
+        }
+        return x * potenciaRec(x, y-1); //tirar do loop
     }
 
     public static int fibonacciRec(int x){
@@ -31,14 +26,18 @@ public class Bim2R2 {
 
         //#######################################
         //Implemente aqui sua solução
-
-
-        return 0; //modifique para o retorno correto
-        //#######################################
+        int i;
+        for(i=x; i>0; i--){
+            if(i==1){
+                return 1;
+            }
+        }
+            return (fibonacciRec(x) * (x-1)) + fibonacciRec(x);//tirar do loop
     }
 
+
     public static void testes(){
-        
+
         testesMDCRec();
         testesPotenciaRec();
         testesFibonacciRec();
@@ -46,7 +45,7 @@ public class Bim2R2 {
 
     public static boolean testeMDCRec(int x, int y, int re){
 
-        int ro = mdcRec(x, y); 
+        int ro = mdcRec(x, y);
         if( ro != re)
         {
             System.err.printf("x: %d - y: %d - esperado: %d - retornado: %d\n", x, y, re, ro);
