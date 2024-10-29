@@ -1,6 +1,7 @@
 import aulas.Aula20;
 import aulas.Aula30;
 import aulas.Aula31;
+import aulas.Aula32;
 import trabalhos.Bim2R2;
 
 public class Main{
@@ -10,6 +11,7 @@ public class Main{
         //Aula29.aulas();
         //Aula30.aula();
         //Aula31.aula();
-        Bim2R2.testesMDCRec();
+        //Bim2R2.testesMDCRec();
+        Aula32.aula();
     }
 }

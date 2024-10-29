@@ -1,5 +1,4 @@
 package aulas;
-import java.io.FileWriter;
 import java.io.File;
 import java.util.Scanner;
 
