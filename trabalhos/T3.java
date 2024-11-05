@@ -1,17 +1,16 @@
 public class T3 {
     public static void main(String[] args) {
-        //Mostrar Inteiros com separador
-        int[] valores = new int[10];
-        String separa = "*";
 
-        for (int i = 0; i < valores.length; i++) {
-            System.out.print(valores[i]);
-            if (i < valores.length - 1) {
-                System.out.print(separa);
+        public static int mostrarInteiros (int[] vetor, int sep) {   //Mostrar Inteiros com separador
+            for (int i = 0; i < vetor.length; i++) {
+                System.out.print(vetor[i]);
+                if (i < vetor.length - 1) {
+                    System.out.print(sep);
+                }
             }
+            System.out.println();
         }
-        System.out.println();
-
+        
         //Filtrar valores maiores
         int[] numeros = {2, 5, 1, 8, 3};
         int valor = 15;
