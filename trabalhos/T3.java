@@ -11,17 +11,14 @@ public class T3 {
             System.out.println();
         }
         
+        public static int filtrarMaiores(int[] vetor, int x)
         //Filtrar valores maiores
-        int[] numeros = {2, 5, 1, 8, 3};
-        int valor = 15;
-
-        System.out.println("Números maiores que " + valor + ":");
-        for (int i = 0; i < numeros.length; i++) {
-            if (numeros[i] > valor) {
-                System.out.println(numeros[i]);
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] > x) {
+                System.out.println(vetor[i]);
             }
         }
-        System.out.println(); 
+        System.out.println(vetor); 
 
         //Filtrar valores menores
         int[] num = {2, 4, 5, 8, 29};
