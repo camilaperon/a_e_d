@@ -11,7 +11,7 @@ public class T3 {
             System.out.println();
         }
         
-        public static int filtrarMaiores(int[] vetor, int x)
+        public static int filtrarMaiores(int[] vetor, int x){
         //Filtrar valores maiores
         for (int i = 0; i < vetor.length; i++) {
             if (vetor[i] > x) {
@@ -19,23 +19,19 @@ public class T3 {
             }
         }
         System.out.println(vetor); 
-
+    }
+        public static int filtrarMenores(int[] vetor, int x){
         //Filtrar valores menores
-        int[] num = {2, 4, 5, 8, 29};
-        valor = 6;
-
-        System.out.println("Os valores menores que " + valor + " são: ");
-        for (int i = 0; i < num.length; i++) {
-            if (num[i] < valor) {
-                System.out.println(num[i]);
+        for (int i = 0; i < vetor.length; i++) {
+            if (vetor[i] < x) {
+                System.out.println(vetor[i]);
             }
         }
         System.out.println(); 
+    }
 
+        public static boolean aplicarOuLogico(va, vb){ //*****REVER ESSA QUESTÃO******
         //Ou lógico
-        boolean[] v = {true, false, true, false};
-        boolean[] w = {false, false, true, true};
-        boolean[] resultado = new boolean[v.length];
 
         for (int i = 0; i < v.length; i++) {
             resultado[i] = v[i] || w[i];
@@ -45,8 +41,10 @@ public class T3 {
             System.out.print(resultado[i] + " ");
         }
         System.out.println(); 
+    }
 
-        //E lógico
+
+        //E lógico **********REVER ESSA QUESTÃO***********
         boolean[] resultadoE = eLogico(v, w);
         for (int i = 0; i < resultadoE.length; i++) {
             System.out.print(resultadoE[i] + " ");
