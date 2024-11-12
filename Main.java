@@ -4,6 +4,7 @@ import aulas.Aula31;
 import aulas.Aula32;
 import aulas.Aula33;
 import trabalhos.Bim2R2;
+import aulas.Aula34;
 
 public class Main{
     public static void main(String[] args) {
@@ -14,6 +15,7 @@ public class Main{
         //Aula31.aula();
         //Bim2R2.testesMDCRec();
         //Aula32.aula();
-        Aula33.aula();
+        //Aula33.aula();
+        Aula34.aula();
     }
 }
