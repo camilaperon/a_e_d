@@ -295,3 +295,7 @@ public class Bim2R2 {
 
     }
 }
+
+javac -d bin Main.java
+	javac -d bin aulas/Aula20.java
+	javac -d bin libs/*.java
