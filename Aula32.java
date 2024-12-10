@@ -1,7 +1,7 @@
 package aulas;
 
-import libs.Tempo;
-import libs.Vetores;
+//import libs.Tempo;
+//import libs.Vetores;
 
 
 public class Aula32 {

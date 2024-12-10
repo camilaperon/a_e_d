@@ -1,3 +1,4 @@
+package trabalhos;
 public class T3 {
 
     // Questão 1 - Mostrar inteiros com separador

@@ -4,6 +4,7 @@ import aulas.Aula31;
 import aulas.Aula32;
 import aulas.Aula33;
 import trabalhos.Bim2R2;
+import trabalhos.bim4.InsertionSort;
 import aulas.Aula34;
 
 
@@ -17,6 +18,7 @@ public class Main{
         //Bim2R2.testesMDCRec();
         //Aula32.aula();
         //Aula33.aula();
-        Aula34.aula();
+        //Aula34.aula();
+        
     }
 }
